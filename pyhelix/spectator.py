@@ -2,7 +2,7 @@ import json
 import kazoo.client
 import logging
 
-import accessor
+from pyhelix import accessor
 
 
 class SpectatorConnection(object):
