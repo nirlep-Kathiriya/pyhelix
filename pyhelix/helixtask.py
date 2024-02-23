@@ -1,7 +1,7 @@
 import logging
 import threading
 
-import statemodel
+from pyhelix import statemodel
 from pyhelix import znode
 
 
