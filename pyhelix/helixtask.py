@@ -2,7 +2,7 @@ import logging
 import threading
 
 import statemodel
-import znode
+from pyhelix import znode
 
 
 class HelixTask(object):
