@@ -5,7 +5,7 @@ import logging
 import os
 import traceback
 
-import keybuilder
+from pyhelix import keybuilder
 
 
 class DataAccessor(object):
