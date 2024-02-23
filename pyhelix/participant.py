@@ -2,7 +2,7 @@ import kazoo.client
 import logging
 import os
 
-import accessor
+from pyhelix import accessor
 import constants
 import helixexec
 import znode
