@@ -3,9 +3,9 @@ import logging
 import os
 
 from pyhelix import accessor
-import constants
-import helixexec
-import znode
+from pyhelix import constants
+from pyhelix import helixexec
+from pyhelix import znode
 
 
 class Participant(object):
