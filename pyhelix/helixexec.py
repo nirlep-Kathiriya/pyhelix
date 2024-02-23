@@ -2,8 +2,8 @@ import concurrent.futures as futures
 import logging
 import time
 
-import helixtask
-import znode
+from pyhelix import helixtask
+from pyhelix import znode
 
 
 class HelixExecutor(object):
