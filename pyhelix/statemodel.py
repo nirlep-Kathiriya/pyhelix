@@ -110,5 +110,5 @@ class StateModelFactory(object):
         """
         Invoked when cleanup is requested for all state provided state models
         """
-        for sm in self._state_models.itervalues():
+        for sm in self._state_models.values():
             sm.reset()
