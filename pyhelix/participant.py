@@ -242,7 +242,7 @@ class Participant(object):
         """
         Internal cleanup (private)
         """
-        for smf in self._state_model_ftys.itervalues():
+        for smf in self._state_model_ftys.values():
             smf.reset()
 
     def _init(self):
